@@ -58,7 +58,7 @@ header {
   clear: left;
   float: right;
   height: 50px;
-  margin-right: 45px;
+  margin-right: 30px;
   padding-top: 8px;
 }
 
@@ -66,10 +66,6 @@ header {
 .sign-in button {
   display: inline-block;
   vertical-align: middle;
-}
-
-div.small-print {
-  width: 200px;
 }
 
 .top.fine-print {
@@ -92,7 +88,7 @@ header button {
   font-size: 13px;
   margin-left: 5px;
   padding: 8px 0;
-  width: 100px;
+  width: 103px;
 }
 
 img#sign-in-padlock {
@@ -223,11 +219,11 @@ input:focus {
 }
 
 .terms-agreement {
+  color: #757575;
   line-height: 20px;
   margin: 40px 0;
   font-size: 12px;
   font-style: italic;
-  opacity: 0.6;
 }
 
 .form-wrapper {
@@ -279,11 +275,16 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.learn-more:hover,
+.terms-agreement a:hover,
+.form-footnote a:hover,
+#legal:hover,
+#privacy:hover,
+#security:hover {
   text-decoration: underline;
 }
 
-a#sign-in:hover {
+#sign-in:hover {
   text-decoration: none;
 }
 
