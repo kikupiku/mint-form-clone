@@ -47,24 +47,164 @@ table {
 	border-spacing: 0;
 }
 
-/* MAIN SECTION */
+/* HEADER--------------------------------------------------------------- */
+
+header {
+  height: 50px;
+  width: 100%;
+}
+
+.sign-in {
+  clear: left;
+  float: right;
+  height: 50px;
+  margin-right: 45px;
+  padding-top: 8px;
+}
+
+.already-have-account,
+.sign-in button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div.small-print {
+  width: 200px;
+}
+
+.top.fine-print {
+  font-size: 12px;
+  padding: 3px 0;
+  text-align: right;
+}
+
+button {
+  background: #0077C5;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: lighter;
+  margin-left: 5px;
+  text-align: center;
+  padding: 8px 0;
+  width: 100px;
+}
+
+img#sign-in-padlock {
+  height: 13px;
+  width: auto;
+  vertical-align: top;
+}
+
+/* MAIN SECTION---------------------------------------------------------- */
 
 body {
   background-color: #eceef1;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+
+}
+
+.title {
+  width: 100%;
+}
+
+.title img {
+  display: block;
+  height: 38px;
+  margin: 20px auto;
+  opacity: 0.4;
+  width: auto;
+}
+
+.logos {
+  margin: 0 auto 20px auto;
+  width: 324px;
+}
+
+.logos > * {
+  vertical-align: middle;
+  padding: 0 2px;
+}
+
+.logos span {
+  font-size: 19px;
+  opacity: 0.5;
+}
+
+.logo {
+  height: 23px;
 }
 
 .container {
-  border: 1px solid black;
-  height: 300px;
-  width: 300px;
+  background: white;
+  border: 1px solid #C7C7C7;
+  height: 606px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  width: 318px;
 }
 
-img {
-  border: 1px solid red;
-  display: block;
-  position: relative;
-  height: 200px;
-  width: auto;
+.container * {
   margin: 0 auto;
-  opacity: 1;
 }
+
+legend {
+  font-size: 24px;
+}
+
+input {
+  border: 1px solid #C7C7C7;
+  border-radius: 5px;
+  width: 85%;
+}
+
+#new-account-padlock {
+  height: 14px;
+  width: auto;
+}
+
+/* FOOTER---------------------------------------------------------------- */
+
+a#legal,
+a#privacy,
+a#security {
+  color: #808080;
+  text-decoration: underline;
+}
+
+/* LINKS------------------------------------------------------------------ */
+
+a {
+  color: #0077C5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a#sign-in:hover {
+  text-decoration: none;
+}
+
+/* TEXT FORMATTING-------------------------------------------------------- */
+
+p,
+span,
+a,
+legend,
+h5,
+label,
+button {
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* TODO: format links
+format all text sizes and colors */
