@@ -69,7 +69,6 @@ header {
 }
 
 .top.fine-print {
-  font-size: 12px;
   padding: 3px 0;
   text-align: right;
 }
@@ -81,7 +80,6 @@ button {
   color: white;
   cursor: pointer;
   font-weight: lighter;
-  text-align: center;
 }
 
 header button {
@@ -97,7 +95,7 @@ img#sign-in-padlock {
   vertical-align: top;
 }
 
-/* MAIN SECTION---------------------------------------------------------- */
+/* GENERAL-------------------------------------------------------------- */
 
 body {
   background-color: #eceef1;
@@ -107,8 +105,9 @@ body {
 main {
   height: 759px;
   width: 100%;
-
 }
+
+/* LOGOS SECTION----------------------------------------------------------- */
 
 .title {
   width: 100%;
@@ -141,6 +140,8 @@ main {
   height: 23px;
 }
 
+/* FORM BOX----------------------------------------------------------------- */
+
 .container {
   background: white;
   border-top: 1px solid #C7C7C7;
@@ -148,14 +149,13 @@ main {
   border-right: 1px solid #C7C7C7;
   height: 606px;
   margin: 0 auto 20px auto;
-  text-align: center;
   width: 378px;
 }
 
 .form-wrapper {
+  height: 548px;
   padding: 30px;
   width: 318px;
-  margin: 0 auto;
 }
 
 legend {
@@ -226,10 +226,6 @@ input:focus {
   font-style: italic;
 }
 
-.form-wrapper {
-  height: 548px;
-}
-
 .form-footnote {
   background: #ECEEF1;
   border-bottom: 1px solid #C7C7C7;
@@ -240,7 +236,6 @@ input:focus {
   margin: 0 auto;
   padding: 20px 30px;
   position: relative;
-  text-align: center;
   width: 318px;
 }
 
@@ -251,11 +246,9 @@ input:focus {
 /* FOOTER---------------------------------------------------------------- */
 
 footer {
-  font-size: 12px;
   margin: 20px auto;
   opacity: 0.7;
   position: relative;
-  text-align: center;
   width: 100%;
 }
 
@@ -309,6 +302,17 @@ h5,
 label,
 button {
   font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+button,
+.container,
+.form-footnote,
+footer {
+  text-align: center;
+}
+
+.fine-print {
+  font-size: 12px;
 }
 
 /* TODO: format links
