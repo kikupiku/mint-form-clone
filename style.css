@@ -204,7 +204,8 @@ input:focus {
 
 .rates-disclaimer {
   font-size: 10px;
-  transform: translate(0, -30px);
+  -webkit-transform: translate(0, -30px);
+          transform: translate(0, -30px);
 }
 
 .container button {
